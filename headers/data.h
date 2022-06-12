@@ -1,6 +1,5 @@
 #include"../src/createClickerThread.c"
 #include"../src/click.c"
-
-extern HANDLE createClickerThread();
+#include"../src/getCoreCount.c"
 
 #define DATA (void*)0

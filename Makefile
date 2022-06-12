@@ -19,5 +19,9 @@ build:
 	${CC} ${FIL} -I ${INCLUDE_DIR} -c -o ${OBJ}
 	${CC} ${CF} ${OBJ} -I ${INCLUDE_DIR} -o ${OUT} ${META_OUT}
 
+clean:
+	del bin\*.o
+	del bin\*.res
+
 run:
 	${OUT}

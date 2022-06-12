@@ -4,10 +4,14 @@
 #include"../headers/data.h"
 
 int currentlyNotClicking = 1;
-float clickerThreadCount = 16;
-float cps = 10;
+double clickerThreadCount = 1;
+double cps = 10;
 
 int main(int argc, char **argv) {
+    // Get the total thread count and put it into the clicker thread count variable
+    int logicalProcesserCount = getMaxThreadCount();
+    clickerThreadCount = (double)logicalProcesserCount;
+
     // Define a local variable for the CPS count
     int localCPS;
 
@@ -33,7 +37,7 @@ start:
         Sleep((1000 / (cps / clickerThreadCount)) / clickerThreadCount);
     }
     localCPS += localCPS / 5;
-    cps = (float)localCPS;
+    cps = (double)localCPS;
 
     char ch;
     while (ch != 'q' && ch != 'Q') {

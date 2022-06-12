@@ -1,8 +1,8 @@
 #include<Windows.h>
 
 extern int currentlyNotClicking;
-extern float clickerThreadCount;
-extern float cps;
+extern double clickerThreadCount;
+extern double cps;
 
 extern int click();
 DWORD WINAPI clickerThread();
