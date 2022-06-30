@@ -1,5 +1,5 @@
 CC=gcc
-CF=-o3 -mwin32
+CF=-o2 -mwin32 -std=c99
 
 FIL=./src/main.c
 OBJ=./bin/main.o

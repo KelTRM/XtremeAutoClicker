@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon Jun 13 10:18:01 2022
+# Make data base, printed on Thu Jun 30 00:37:17 2022
 
 # Variables
 
@@ -18,8 +18,6 @@ POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
 ?F = $(notdir $?)
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
-# environment
-WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from `makefile', line 5)
@@ -31,8 +29,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
-@D = $(patsubst %/,%,$(dir $ 
-@))
+@D = $(patsubst %/,%,$(dir $@))
 # environment
 HOMEDRIVE = C:
 # automatic
@@ -56,8 +53,6 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
 TMP = C:\Users\kelvin\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -66,13 +61,13 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8479c1c7-3d0a-4176-aa2e-a18c209875c8-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ad16efcb-00b3-4512-9c24-2be0f1f03a84-sock
 # environment
 VSCODE_CWD = C:\Users\kelvin\source\c\AutoClicker
 # environment
-PATH = C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\cmds;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSL\bin;C:\Program Files\qemu;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Users\kelvin\Desktop\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\kelvin\Downloads\SDL2-2.0.20\lib\x64;C:\Program Files (x86)\GnuWin32\bin;C:\WebProjectGenerator;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\kelvin\AppData\Local\bin\NASM;C:\Program Files\LLVM\bin;C:\Program Files\PowerShell\7\;C:\Users\kelvin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kelvin\AppData\Local\Programs\Python\Python310\;C:\Users\kelvin\.cargo\bin;C:\Users\kelvin\AppData\Local\Microsoft\WindowsApps;C:\Users\kelvin\AppData\Roaming\npm;C:\Users\kelvin\.dotnet\tools;C:\Users\kelvin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;C:\Users\kelvin\go\bin;C:\Users\kelvin\AppData\Local\Programs\Julia-1.7.3\bin
+PATH = C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\cmds;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSL\bin;C:\Program Files\qemu;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Users\kelvin\Desktop\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\kelvin\Downloads\SDL2-2.0.20\lib\x64;C:\Program Files (x86)\GnuWin32\bin;C:\WebProjectGenerator;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\kelvin\AppData\Local\bin\NASM;C:\Program Files\LLVM\bin;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\dotnet\;C:\Users\kelvin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kelvin\AppData\Local\Programs\Python\Python310\;C:\Users\kelvin\.cargo\bin;C:\Users\kelvin\AppData\Local\Microsoft\WindowsApps;C:\Users\kelvin\AppData\Roaming\npm;C:\Users\kelvin\.dotnet\tools;C:\Users\kelvin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;C:\Users\kelvin\go\bin;C:\Users\kelvin\AppData\Local\Programs\Julia-1.7.3\bin
 # makefile (from `makefile', line 2)
-CF = -o3 -mwin32
+CF = -o2 -mwin32 -std=c99
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -98,7 +93,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21812_NAUGPWQXSJFQIZPK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22588_IWBJEPETCBPNRJEK
 # environment
 VSCODE_PIPE_LOGGING = true
 # makefile (from `makefile', line 11)
@@ -116,8 +111,6 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-WT_SESSION = 76aad4b5-39c6-4ca5-a4b5-f44dc77e0e12
-# environment
 USERNAME = kelvin
 # environment
 PUBLIC = C:\Users\Public
@@ -128,7 +121,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\kelvin\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\kelvin\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -164,8 +157,7 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 LOCALAPPDATA = C:\Users\kelvin\AppData\Local
 # environment
-PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvPkgConverter;C:\Program Files (x86)\Windows 
- Kits\10\Microsoft Application Virtualization\Sequencer\AppvSequencer;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvPkgConverter;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\AppvSequencer;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
 # default
 MAKE_COMMAND := make.exe
 # environment
@@ -179,7 +171,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ee724c5a17d6f9eb258989c776823c61-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ee724c5a17d6f9eb258989c776823c61-1.68.1-main-sock
 # environment
 HOMEPATH = \Users\kelvin
 # environment
@@ -200,8 +192,6 @@ SYSTEMROOT = C:\Windows
 APPDATA = C:\Users\kelvin\AppData\Roaming
 # environment
 TEMP = C:\Users\kelvin\AppData\Local\Temp
-# environment
-WT_PROFILE_ID = {0caa0dad-35be-5f56-a8ff-afceeeaa6101}
 # environment
 COMSPEC = C:\Windows\system32\cmd.exe
 # default
@@ -233,13 +223,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 25
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 21812
+VSCODE_PID = 22588
 # environment
 USERDOMAIN_ROAMINGPROFILE = HANSENFAM
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=13/134=10%
+# Load=107/1024=10%, Rehash=0, Collisions=13/129=10%
 
 # Pattern-specific Variable Values
 
@@ -256,8 +244,8 @@ USERDOMAIN_ROAMINGPROFILE = HANSENFAM
 # C:\Program Files\qemu (key C:/Program Files/qemu, mtime 1643316097): 127 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1650083468): 14 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1633528696): 30 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652433638): 170 files, no impossibilities.
-# . (key c:/Users/kelvin/source/c/AutoClicker, mtime 1655057835): 14 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655897780): 170 files, no impossibilities.
+# . (key c:/Users/kelvin/source/c/AutoClicker, mtime 1656567437): 14 files, no impossibilities.
 # C:\Users\kelvin\Desktop\platform-tools (key C:/Users/kelvin/Desktop/platform-tools, mtime 1647277474): 19 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1644275510): 10 files, no impossibilities.
 # C:\cmds (key C:/cmds, mtime 1654452260): 8 files, no impossibilities.
@@ -268,8 +256,8 @@ USERDOMAIN_ROAMINGPROFILE = HANSENFAM
 # C:\Users\kelvin\AppData\Local\Programs\Python\Python310\ (key C:/Users/kelvin/AppData/Local/Programs/Python/Python310/, mtime 1648624760): 18 files, no impossibilities.
 # C:\Users\kelvin\AppData\Local\bin\NASM (key C:/Users/kelvin/AppData/Local/bin/NASM, mtime 1649997421): 18 files, no impossibilities.
 # C:\Users\kelvin\.cargo\bin (key C:/Users/kelvin/.cargo/bin, mtime 1642111434): 14 files, no impossibilities.
-# C:\Users\kelvin\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/kelvin/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1650069819): 7 files, no impossibilities.
-# C:\Users\kelvin\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/kelvin/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1654797877): 4 files, no impossibilities.
+# C:\Users\kelvin\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/kelvin/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1656464361): 7 files, no impossibilities.
+# C:\Users\kelvin\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/kelvin/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655316619): 4 files, no impossibilities.
 # C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1653513558): 478 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\mingw64\bin (key C:/mingw64/bin, mtime 1526110174): 58 files, no impossibilities.
@@ -277,27 +265,27 @@ USERDOMAIN_ROAMINGPROFILE = HANSENFAM
 # C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\ (key C:/Program Files (x86)/Windows Kits/10/Microsoft Application Virtualization/Sequencer/, mtime 1647143301): 70 files, no impossibilities.
 # C:\WebProjectGenerator (key C:/WebProjectGenerator, mtime 1649607521): 6 files, no impossibilities.
 # C:\Program Files\OpenSSL\bin (key C:/Program Files/OpenSSL/bin, mtime 1641685750): 15 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1652454831): 137 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1655897780): 137 files, no impossibilities.
 # C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1648176656): 11 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1653531510): 7 files, no impossibilities.
 # C:\Program Files\Azure Data Studio\bin (key C:/Program Files/Azure Data Studio/bin, mtime 1648176103): 4 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1647727432): 46 files, no impossibilities.
-# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652424762): 13 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1655262444): 13 files, no impossibilities.
 # C:\Users\kelvin\Downloads\SDL2-2.0.20\lib\x64: could not be stat'd.
 # C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, mtime 1647143271): 144 files, no impossibilities.
-# C:\Users\kelvin\AppData\Local\Microsoft\WindowsApps (key C:/Users/kelvin/AppData/Local/Microsoft/WindowsApps, mtime 1654917871): 28 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1655262494): 9 files, no impossibilities.
+# C:\Users\kelvin\AppData\Local\Microsoft\WindowsApps (key C:/Users/kelvin/AppData/Local/Microsoft/WindowsApps, mtime 1655237500): 28 files, no impossibilities.
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
 # C:\Users\kelvin\AppData\Local\Programs\Julia-1.7.3\bin (key C:/Users/kelvin/AppData/Local/Programs/Julia-1.7.3/bin, mtime 1654874451): 61 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1640358072): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1654927559): 3092 files, no impossibilities.
-# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1644826618): 7 
- files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1656566505): 3092 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1644826618): 7 files, no impossibilities.
 # C:\Users\kelvin\go\bin: could not be stat'd.
 # C:\Program Files (x86)\Lua\5.1\clibs (key C:/Program Files (x86)/Lua/5.1/clibs, mtime 1645046749): 119 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1644275519): 5 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1648624970): 5 files, no impossibilities.
 
-# 5151 files, no impossibilities in 48 directories.
+# 5160 files, no impossibilities in 49 directories.
 
 # Implicit Rules
 
@@ -343,7 +331,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-12 15:41:13
+#  Last modified 2022-06-22 16:39:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -369,8 +357,7 @@ run:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  com 
-mands to execute (from `makefile', line 27):
+#  commands to execute (from `makefile', line 27):
 	${OUT}
 	
 
@@ -396,6 +383,6 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jun 13 10:18:01 2022
+# Finished Make data base on Thu Jun 30 00:37:17 2022
 
  
