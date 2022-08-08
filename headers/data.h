@@ -9,6 +9,6 @@
 #include"../src/GetTimeMS.c"
 #include"../src/getRecommendedSpeed.c"
 
-#define VERSION "v1.3"
+#define VERSION "v1.2"
 
 #define DATA (void*)0
