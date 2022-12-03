@@ -27,7 +27,7 @@ make DEBUG=1
 ```
 
 # Plans
-Not much for plans are availible, but I do have some
+Not much for plans are available, but I do have some
 
 - Closing into the background while not getting the CPS
 - Replacing the starting and stopping messages with notifications
